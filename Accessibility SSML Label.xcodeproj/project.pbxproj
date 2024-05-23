@@ -11,6 +11,7 @@
 		AE5E9F032BFE5A6300C4F25E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9F022BFE5A6300C4F25E /* ContentView.swift */; };
 		AE5E9F052BFE5A6500C4F25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5E9F042BFE5A6500C4F25E /* Assets.xcassets */; };
 		AE5E9F082BFE5A6500C4F25E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5E9F072BFE5A6500C4F25E /* Preview Assets.xcassets */; };
+		AE5E9F0F2BFEE66200C4F25E /* View+AccessibilitySSMLLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9F0E2BFEE66200C4F25E /* View+AccessibilitySSMLLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AE5E9F022BFE5A6300C4F25E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE5E9F042BFE5A6500C4F25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5E9F072BFE5A6500C4F25E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5E9F0E2BFEE66200C4F25E /* View+AccessibilitySSMLLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AccessibilitySSMLLabel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AE5E9F002BFE5A6300C4F25E /* Accessibility_SSML_LabelApp.swift */,
 				AE5E9F022BFE5A6300C4F25E /* ContentView.swift */,
+				AE5E9F0E2BFEE66200C4F25E /* View+AccessibilitySSMLLabel.swift */,
 				AE5E9F042BFE5A6500C4F25E /* Assets.xcassets */,
 				AE5E9F062BFE5A6500C4F25E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5E9F0F2BFEE66200C4F25E /* View+AccessibilitySSMLLabel.swift in Sources */,
 				AE5E9F032BFE5A6300C4F25E /* ContentView.swift in Sources */,
 				AE5E9F012BFE5A6300C4F25E /* Accessibility_SSML_LabelApp.swift in Sources */,
 			);
@@ -287,6 +291,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.elkraneo.Accessibility-SSML-Label";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +323,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.elkraneo.Accessibility-SSML-Label";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
